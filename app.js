@@ -38,7 +38,7 @@ app.use((req, res, next) => {
 
 app.use(cors({
   credentials: true,
-  origin: ["http://localhost:3000"]
+  origin: ["https://maba.netlify.app/"]
 }));
       
 
