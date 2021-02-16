@@ -8,7 +8,8 @@ const transport = {
   secure: false,
   auth: {
     user: process.env.EMAIL,
-    pass: process.env.EMAILPASSWORD
+    pass: process.env.EMAILPASSWORD,
+    accessToken: process.env.ACCESSTOKEN,
   }
 };
 
