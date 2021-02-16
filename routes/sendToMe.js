@@ -41,7 +41,7 @@ const transporter = nodemailer.createTransport(transport);
     transporter.sendMail(mail, (err,data) => {
       if(err) {
         res.json({
-          status: 'Ha habido un error al enviar la consulta. Por favor, inténtalo de nuevo más tarde.'
+          status: 'Algo ha salido mal. Por favor, inténtalo de nuevo más tarde.'
         })
       } else {
         res.json({
